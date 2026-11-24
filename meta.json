@@ -1,0 +1,84 @@
+{
+ "flows": [
+  {
+   "channel": "Apple Ads",
+   "term": "coinstats",
+   "headline": "Welcome to CoinStats, the one spot for all your CeFi, DeFi, and NFT assets!",
+   "paywall_opens_on": "the trial timeline, “Start tracking your exchanges and wallets today”, $164.99/year on the yearly card",
+   "note": "asks where their crypto sits, then shows their synced balance before the price"
+  },
+  {
+   "channel": "Apple Ads",
+   "term": "cmc",
+   "headline": "Live prices of 20,000+ coins",
+   "paywall_opens_on": "4.8 stars from 86K ratings and two US reviews above the plans",
+   "note": "their favourite coins live and a Bitcoin price alert before the price"
+  },
+  {
+   "channel": "Apple Ads",
+   "term": "coingecko: crypto tracker",
+   "headline": "You can connect 300+ wallets & exchanges",
+   "paywall_opens_on": "their answer as the headline, “Every wallet you track, one portfolio”, Yearly first at $13.75 a month",
+   "note": "a pasted wallet and its profit and loss before the price"
+  }
+ ],
+ "prices": {
+  "yearly": "$164.99",
+  "monthly": "$15.99",
+  "trial": "3 days",
+  "offer_on_close": "$119.99 a year (CoinStats Premium - Annual)",
+  "source": "their onboarding paywall as recorded (ScreensDesign, Aug 2026); US App Store In-App Purchases"
+ },
+ "today": {
+  "text": "every install meets five welcome slides, “What Brings You to CoinStats?”, a target value, a connect step, a notification prompt and three paywall screens ending on “Start tracking your portfolio today”, with $164.99 only in the fine print",
+  "source": "audit_frames"
+ },
+ "asks": [
+  "Where Do You Keep Your Crypto?",
+  "Your Favorite Coins",
+  "What Brings You to CoinStats?"
+ ],
+ "paywall": {
+  "headline": "Start tracking your portfolio today",
+  "uses_answers": false
+ },
+ "rebuild": "each Apple Ads search opens its own first screen, one question and a first win before the price, and the paywall uses the answer",
+ "ideas": [
+  {
+   "n": 1,
+   "title": "Open on the search they typed",
+   "screen": "Arrive",
+   "outcome": "CR +10–20%"
+  },
+  {
+   "n": 2,
+   "title": "Ask one thing, then use it on the paywall",
+   "screen": "Paywall",
+   "outcome": "CR +10–20%"
+  },
+  {
+   "n": 3,
+   "title": "Put $164.99 on the yearly card",
+   "screen": "Paywall",
+   "outcome": "ARPU +10–15%"
+  },
+  {
+   "n": 4,
+   "title": "Show your 4.8 stars where they pay",
+   "screen": "Paywall",
+   "outcome": "CR +10–15%"
+  },
+  {
+   "n": 5,
+   "title": "Answer ✕ with your $119.99 year",
+   "screen": "On ✕",
+   "outcome": "ARPU +10–15%"
+  }
+ ],
+ "languages": [
+  "en",
+  "hy",
+  "ru"
+ ],
+ "url": "https://eddieatadapty.github.io/coinstats-flow-rebuild/"
+}
